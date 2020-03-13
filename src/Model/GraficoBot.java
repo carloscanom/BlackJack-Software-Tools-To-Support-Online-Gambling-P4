@@ -241,7 +241,7 @@ public class GraficoBot {
 
             if (tipoBot == 3) {
                 Image imagen2;
-                imagen2 = Image.getInstance(System.getProperty("user.dir") + "\\tabla estrategias.jpg");
+                imagen2 = Image.getInstance(System.getProperty("user.dir") + "\\src\\imagenes\\tabla estrategias.jpg");
                 imagen2.setAlignment(Element.ALIGN_CENTER);
                 doc.add(imagen2);
             }
